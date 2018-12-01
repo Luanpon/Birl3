@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="com.example.luanp.birl.ExeActionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@android:color/background_light"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="50dp" />
+
+            <ImageButton
+                android:id="@+id/bt_home"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0"
+                android:background="@android:color/holo_orange_dark"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/home" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

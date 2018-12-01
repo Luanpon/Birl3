@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="com.example.luanp.birl.ExeSerieActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="Nº de Séries"
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/bt_menos"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/holo_orange_dark"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/menos2" />
+
+            <TextView
+                android:id="@+id/num_series"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="01"
+                android:textColor="#000000"
+                android:textSize="35dp" />
+
+            <ImageButton
+                android:id="@+id/bt_mais"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/holo_orange_dark"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/mais" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteY="139dp">
+
+            <ImageButton
+                android:id="@+id/bt_voltar"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="7.5dp"
+                android:background="#000000"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/voltar" />
+
+            <ImageButton
+                android:id="@+id/bt_avancar"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="7.5dp"
+                android:layout_marginRight="15dp"
+                android:background="#000000"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/avancar" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
